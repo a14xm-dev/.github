@@ -31,6 +31,38 @@ Medical school is demanding, so my development is sporadic. I work on projects w
 
 These projects are experimental. I'm still learning and improving, so expect some bumps along the road. Always back up your data before trying any custom software. 
 
+# Flashing ROMs and Custom Recovery on Samsung Devices
+
+   - Procedure will generally apply across most Samsung devices 
+
+Prerequisites:
+- 
+- [Odin v3.13.1](https://build.nethunter.com/samsung-tools/)
+  - There are plenty of ¨official¨ Odin links. Odin is proprietary software which has never been officially released by Samsung
+  - XDA threads or Nethunter repository are the most reputable sources for finding it. I choose the latter
+- Fresh install or flash of the [latest available firmware](https://samfw.com/firmware/SM-A146P/)
+ 
+ROM Downloads: 
+- 
+- Work in progress. 
+
+General Installation Instructions (TWRP): 
+
+From stock OEM firmware:
+-
+- [Unlock bootloader](https://www.ifixit.com/Guide/How+to+unlock+the+bootloader+of+an+Android+Phone/152629)
+- Power the device off
+- Hold Vol Up & Vol Down buttons while plugging the USB-C from PC into device to enter Download mode
+ 
+- Flash the custom ROM tarball (.tar.md5 file) to the AP slot with Odin
+- If TWRP launches, factory reset with Wipe->Format Data and reboot to system. (Not necessary for incremental upgrades.)
+
+From existing TWRP install:
+-
+- Hold Power & Vol Up during restart to enter TWRP recovery
+- Tap Install, Install Image, select your update (.img file), OR Install via [ZIP archive]. 
+- Factory reset with Wipe -> Format Data. (Not necessary for incremental upgrades.)
+- Reboot to system
 
 **Thank you for visiting!.** 🩺📱💻
 ---
