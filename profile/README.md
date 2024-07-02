@@ -1,4 +1,4 @@
-# Project A146P: the Unofficial Upgrade
+# Project A146P: The Unofficial Upgrade
 ![Banner](https://i.mediatek.com/hubfs/D700/banner.svg)
 
 **About Me:**
